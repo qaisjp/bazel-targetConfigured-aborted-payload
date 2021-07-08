@@ -16,7 +16,7 @@ The last line contains this:
 {"id":{"targetConfigured":{"label":"@io_bazel_rules_go//go/config:race"}},"aborted":{},"lastMessage":true}
 ```
 
-Which equal to the following protobuf `Aborted` message ([as per the protocol](https://github.com/bazelbuild/bazel/blob/f02c586e1f4e96572d3f32780e7d9fcb1af87f03/src/main/java/com/google/devtools/build/lib/buildeventstream/proto/build_event_stream.proto#L268-L315)):
+Which is equal to the following protobuf `Aborted` message ([as per the protocol](https://github.com/bazelbuild/bazel/blob/f02c586e1f4e96572d3f32780e7d9fcb1af87f03/src/main/java/com/google/devtools/build/lib/buildeventstream/proto/build_event_stream.proto#L268-L315)):
 
 ```go
 {
